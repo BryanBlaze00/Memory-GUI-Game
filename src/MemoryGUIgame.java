@@ -52,7 +52,7 @@ public class MemoryGUIgame extends JFrame {
     // Default constructor
     public MemoryGUIgame( ) throws InterruptedException {
         this.setTitle("Memory GUI Game -By Blaze");
-        this.setBounds(500 , 300,500,500);
+        this.setBounds(600 , 300,500,500);
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setAlwaysOnTop(true);
         this.setVisible(true);
