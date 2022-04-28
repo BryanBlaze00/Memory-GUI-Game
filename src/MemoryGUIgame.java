@@ -8,7 +8,7 @@ import java.util.Arrays;
 import java.util.Random;
 import java.util.concurrent.TimeUnit;
 
-public class MemoryGUIgame extends JFrame{
+public class MemoryGUIgame extends JFrame {
     // Private fields
     private final Random randNum = new Random();
     private final JPanel dock = new JPanel();
@@ -37,6 +37,7 @@ public class MemoryGUIgame extends JFrame{
             for (JButton button: buttons) {
                 if (source.equals(button)) {
                     button.setForeground(Color.BLACK);
+                    button.setFocusPainted(false);
                 }
             }
         }
@@ -51,7 +52,7 @@ public class MemoryGUIgame extends JFrame{
     // Default constructor
     public MemoryGUIgame( ) throws InterruptedException {
         this.setTitle("Memory GUI Game -By Blaze");
-        this.setBounds(-1200 , 300 , 500 , 500);
+        this.setBounds(500 , 300,500,500);
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setAlwaysOnTop(true);
         this.setVisible(true);
@@ -70,7 +71,7 @@ public class MemoryGUIgame extends JFrame{
                                              Rules:
                                              - RED Mode: Random numbers will be generated one at a time and saved in a sequence.
                                              - GREEN Mode: Click on the numbers generated in sequential order from 'RED Mode'.
-                                             - You will have the total generated numbers in seconds to match the sequence.
+                                             - You will have the total generated numbers in seconds to match the sequence. '1 sec/#'
                                              - All of your number entries must match to get to the next round.
 
                                              That's it! Good Luck!""");
@@ -88,17 +89,18 @@ public class MemoryGUIgame extends JFrame{
 
     // Timer to let the player make their sequences selection and compare to win, then reset guesses.
     private void playerTurn( ) throws InterruptedException {
-        for (int i = 0; i < buttons.length ; i++ ) {
+        for (int i = 0 ; i < buttons.length ; i++) {
             buttons[i].addMouseListener(squeak);
         }
         dock.setBackground(Color.GREEN);
-        TimeUnit.SECONDS.sleep(memorize.size() + 2);
+        TimeUnit.SECONDS.sleep(memorize.size());
 
         if (!Arrays.toString(playerGuess.toArray()).equals(Arrays.toString(memorize.toArray()))) { gameover = true; }
         playerGuess.removeAll(playerGuess);
-        for (int i = 0; i < buttons.length ; i++ ) {
+        for (int i = 0 ; i < buttons.length ; i++) {
             buttons[i].removeMouseListener(squeak);
         }
+
     }
 
     // Generate random numbers, and activate button sequences to memorize
@@ -108,25 +110,27 @@ public class MemoryGUIgame extends JFrame{
             for (int temp: memorize) {
                 buttons[temp - 1].setForeground(Color.RED);
                 buttons[temp - 1].doClick();
-                TimeUnit.SECONDS.sleep(1);
+                TimeUnit.MILLISECONDS.sleep(700);
                 buttons[temp - 1].setForeground(Color.BLACK);
-                TimeUnit.SECONDS.sleep(1);
+                TimeUnit.MILLISECONDS.sleep(700);
             }
         }
         int nextNum = randNum.nextInt(0 , 8);
         memorize.add(nextNum + 1);
         buttons[nextNum].setForeground(Color.RED);
         buttons[nextNum].doClick();
-        TimeUnit.SECONDS.sleep(1);
+        TimeUnit.MILLISECONDS.sleep(700);
         buttons[nextNum].setForeground(Color.BLACK);
     }
 
     // Initialize components
     private void initComponents( ) {
-        dock.setLayout(new GridLayout(3 , 3 , 3 , 3));
-        this.add(dock);
+        dock.setLayout(new GridLayout(3 , 3,3,3 ));
+        dock.setVisible(true);
+
         for (int i = 0 ; i < buttons.length ; i++) {
             buttons[i] = new JButton();
+            buttons[i].setSize(200,200);
             buttons[i].setText(String.valueOf(i + 1));
             buttons[i].setFont(new Font("Arial" , Font.BOLD , 100));
             buttons[i].setForeground(Color.BLACK);
@@ -134,6 +138,8 @@ public class MemoryGUIgame extends JFrame{
             buttons[i].setVisible(true);
         }
         dock.setVisible(true);
+        this.add(dock);
+        this.revalidate();
     }
 }
 

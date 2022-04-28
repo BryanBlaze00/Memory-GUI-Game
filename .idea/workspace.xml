@@ -1,13 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="MemoryGUIgame" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2489ac60-c063-49ac-8639-f26d46372d46" name="Changes" comment="Updated, and fixed the game from being cheat-able by disabling mouse listeners.">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/MemoryGUIgame.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
+    <list default="true" id="2489ac60-c063-49ac-8639-f26d46372d46" name="Changes" comment="Artifacts and MANIFEST.MF">
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/MemoryGUIgame.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/MemoryGUIgame.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MemoryGUIgame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MemoryGUIgame.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +49,7 @@
     "project.structure.last.edited": "Artifacts",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
     "two.files.diff.last.used.file": "C:/Users/Blaze/Documents/GitHub/GUI_Says/out/production/MemoryGUIgame/MemoryGUIgame.class"
   },
   "keyToStringList": {
@@ -53,7 +59,7 @@
   }
 }]]></component>
   <component name="RunManager" selected="Application.MemoryGUIgame">
-    <configuration name="MemoryGUIgame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="MemoryGUIgame" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MemoryGUIgame" />
       <module name="MemoryGUIgame" />
       <method v="2">
@@ -76,7 +82,6 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MemoryGUIgame" />
         <item itemvalue="Java Scratch.Waiter" />
         <item itemvalue="Java Scratch.Producer" />
       </list>
@@ -98,7 +103,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651122211684</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Artifacts and MANIFEST.MF">
+      <created>1651129305050</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1651129305050</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -114,6 +126,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Updated, and fixed the game from being cheat-able by disabling mouse listeners." />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated, and fixed the game from being cheat-able by disabling mouse listeners." />
+    <MESSAGE value="Artifacts and MANIFEST.MF" />
+    <option name="LAST_COMMIT_MESSAGE" value="Artifacts and MANIFEST.MF" />
   </component>
 </project>
