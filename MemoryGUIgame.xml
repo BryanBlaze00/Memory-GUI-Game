@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch4jConfig>
+  <dontWrapJar>false</dontWrapJar>
+  <headerType>gui</headerType>
+  <jar>C:\Users\Blaze\Documents\GitHub\GUI_Says\Memory GUI Says-Game By Blaze.jar</jar>
+  <outfile>C:\Users\Blaze\Documents\GitHub\GUI_Says\Memory GUI Says-Game By Blaze.exe</outfile>
+  <errTitle></errTitle>
+  <cmdLine></cmdLine>
+  <chdir>.</chdir>
+  <priority>normal</priority>
+  <downloadUrl>http://java.com/download</downloadUrl>
+  <supportUrl></supportUrl>
+  <stayAlive>false</stayAlive>
+  <restartOnCrash>false</restartOnCrash>
+  <manifest></manifest>
+  <icon>C:\Users\Blaze\Desktop\Programming\images\icons\ram.ico</icon>
+  <classPath>
+    <mainClass>MemoryGUIgame</mainClass>
+  </classPath>
+  <jre>
+    <path></path>
+    <bundledJre64Bit>false</bundledJre64Bit>
+    <bundledJreAsFallback>false</bundledJreAsFallback>
+    <minVersion>17.0.2</minVersion>
+    <maxVersion></maxVersion>
+    <jdkPreference>preferJre</jdkPreference>
+    <runtimeBits>64/32</runtimeBits>
+    <initialHeapSize>50</initialHeapSize>
+    <maxHeapSize>100</maxHeapSize>
+  </jre>
+</launch4jConfig>

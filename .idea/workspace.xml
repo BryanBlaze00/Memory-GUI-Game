@@ -9,7 +9,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2489ac60-c063-49ac-8639-f26d46372d46" name="Changes" comment="Artifacts and MANIFEST.MF" />
+    <list default="true" id="2489ac60-c063-49ac-8639-f26d46372d46" name="Changes" comment="Fixed *reValidate, and Location.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -113,7 +115,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651136537681</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Fixed *reValidate, and Location.">
+      <created>1651136714918</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1651136714918</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -130,6 +139,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Updated, and fixed the game from being cheat-able by disabling mouse listeners." />
     <MESSAGE value="Artifacts and MANIFEST.MF" />
-    <option name="LAST_COMMIT_MESSAGE" value="Artifacts and MANIFEST.MF" />
+    <MESSAGE value="Fixed *reValidate, and Location." />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed *reValidate, and Location." />
   </component>
 </project>
