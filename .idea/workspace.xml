@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2489ac60-c063-49ac-8639-f26d46372d46" name="Changes" comment="">
+    <list default="true" id="2489ac60-c063-49ac-8639-f26d46372d46" name="Changes" comment="Updated, and fixed the game from being cheat-able by disabling mouse listeners.">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/MemoryGUIgame.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MemoryGUIgame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MemoryGUIgame.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +39,11 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/Blaze/Documents/GitHub/GUI_Says/out/production/MemoryGUIgame/MemoryGUIgame.class",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/Blaze/Documents/GitHub/GUI_Says/src/META-INF",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
     "two.files.diff.last.used.file": "C:/Users/Blaze/Documents/GitHub/GUI_Says/out/production/MemoryGUIgame/MemoryGUIgame.class"
   },
   "keyToStringList": {
@@ -86,6 +91,14 @@
       <option name="presentableId" value="Default" />
       <updated>1651023585630</updated>
     </task>
+    <task id="LOCAL-00001" summary="Updated, and fixed the game from being cheat-able by disabling mouse listeners.">
+      <created>1651122211684</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1651122211684</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -98,5 +111,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Updated, and fixed the game from being cheat-able by disabling mouse listeners." />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated, and fixed the game from being cheat-able by disabling mouse listeners." />
   </component>
 </project>

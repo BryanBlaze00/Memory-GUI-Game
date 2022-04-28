@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact build-on-make="true" name="MemoryGUIgame">
+    <output-path>$PROJECT_DIR$/out/artifacts/MemoryGUIgame</output-path>
+    <root id="root">
+      <element id="archive" name="MemoryGUIgame.jar">
+        <element id="module-output" name="MemoryGUIgame" />
+      </element>
+    </root>
+  </artifact>
+</component>
