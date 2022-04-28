@@ -9,7 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2489ac60-c063-49ac-8639-f26d46372d46" name="Changes" comment="Executable, JAR, PNG Example" />
+    <list default="true" id="2489ac60-c063-49ac-8639-f26d46372d46" name="Changes" comment="Updated .exe with JRE" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -127,7 +127,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651140334834</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Updated .exe with JRE">
+      <created>1651162866521</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1651162866521</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -146,6 +153,7 @@
     <MESSAGE value="Artifacts and MANIFEST.MF" />
     <MESSAGE value="Fixed *reValidate, and Location." />
     <MESSAGE value="Executable, JAR, PNG Example" />
-    <option name="LAST_COMMIT_MESSAGE" value="Executable, JAR, PNG Example" />
+    <MESSAGE value="Updated .exe with JRE" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated .exe with JRE" />
   </component>
 </project>
