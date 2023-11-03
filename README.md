@@ -9,6 +9,6 @@ where you only have a second per number saved to match what the 'GUI Says' haha!
 
 While making this I ran it often to make sure my changes were making progress, and I happened to get a really high score of 31! 
 
-See if you can beat it! --->> Just download the ![https://github.com/BryanBlaze00/Memory-GUI-Game/blob/eb85860d48133beab9eca80ef7dd2a53d3002480/Memory%20GUI%20Says-Game%20By%20Blaze.exe](Memory GUI Says-Game By Blaze.exe) file!
+See if you can beat it! --->> Just download the [Memory GUI Says-Game By Blaze.exe](https://github.com/BryanBlaze00/Memory-GUI-Game/blob/eb85860d48133beab9eca80ef7dd2a53d3002480/Memory%20GUI%20Says-Game%20By%20Blaze.exe) file!
 
 ![](MemoryGUIgame.png)
